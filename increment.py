@@ -1,4 +1,4 @@
-# jack elder
+# nick fiacco and jack elder
 # creates dictionary based on csv file for good / bad words
 
 # add some usage documentation you bitch
