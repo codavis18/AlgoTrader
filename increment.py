@@ -1,6 +1,8 @@
 # jack elder
 # creates dictionary based on csv file for good / bad words
 
+# add some usage documentation you bitch
+
 from stock import *
 import csv
 from dictionarycreation import *
@@ -23,7 +25,7 @@ def parse_csv(ticker):
     return tweet_list
 
 def create_sentiment_dictionary():
-    file = open("dictionary", "r")
+    file = open("dict.txt", "r")
     sentiment_dictionary = {}
     for line in file:
             s = line.strip()

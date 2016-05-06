@@ -1,5 +1,6 @@
 # jack elder
 # creates dictionary based on csv file for good / bad words
+
 def create_dict(textfile):
     file = open(textfile, "r")
     dictionary = {}
@@ -9,4 +10,4 @@ def create_dict(textfile):
         dictionary[sp[0]] = sp[1]
     return dictionary
 
-create_dict("dictionary")
+#create_dict("dictionary")
