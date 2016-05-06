@@ -1,3 +1,5 @@
+# used to store tweet data
+
 class Tweet:
       # initializes variables
       def __init__(self, ticker, id, body, screen_name, time):
