@@ -45,7 +45,7 @@ def getStockData(ticker, tweetDate, interval):
 	if len(tokens) > 1:
 		startDate = convertDate(tweetDate)
 	else:
-		startDate = tweetDate
+		startDate = datetime.datetime.strptime(tweetDate, '%Y-%m-%d')
 
 	endDate = startDate + datetime.timedelta(days=interval)
 #	print "Getting data for: " + ticker + " from " + str(startDate.date()) + " to " + str(endDate.date())
@@ -56,10 +56,11 @@ def getStockData(ticker, tweetDate, interval):
 
 	prices = []
 	for result in results:
+#		print result['Close']
 		prices.append(float(result['Close']))
 #		print "Price on " + result['Date'] + " at close was: " + result['Close']
 
-	if len(prices) > 0:
+	if len(prices) > 1:
 		changeRate = getChangeRate(prices)
 		return changeRate
 	else:
@@ -67,6 +68,6 @@ def getStockData(ticker, tweetDate, interval):
 #	print "Slope of regression fit to stock data: " + str(changeRate)
 
 
-getStockData('AAPL', tweetDate, 5)
-
+#getStockData('AAPL', tweetDate, 5)
+getStockData('AAPL', "2016-05-17", 5)
 

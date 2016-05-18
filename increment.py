@@ -68,6 +68,7 @@ def increment(ticker, interval):
 			stock.values[date_key] = sentiment_dict[sp[i]]
 	
     for key in stock.values:
+	
 	print str(stock) + " tweet value on " + key + " is " + str(stock.values[key]) + " and change is " + str(stock.prices[key])
 
     return stock
@@ -80,13 +81,26 @@ def regress(stock):
 
 	for key in stock.values:
 		if key in stock.prices:
+		#	print type(stock.prices[key])
+		#	print type(stock.prices[key])
+		#	if(type(stock.prices[key]) == int or type(stock.prices[key]) == 'numpy.float64'  and type(stock.values[key]) == int or type(stock.values[key]) == 'numpy.float64'):
 			value_list.append(float(stock.values[key]))
 			price_list.append(float(stock.prices[key]))
+
+	if(len(value_list) > 1 and len(price_list) > 1 and len(value_list) == len(price_list)):
+		yData = np.array(price_list).astype(np.float)
+		xData = np.array(value_list).astype(np.float)
+
+	#for value in value_list:
+	#	print value
 	
-	yData = np.array(price_list).astype(np.float)
-	xData = np.array(value_list).astype(np.float)
-	m, c = np.polyfit(xData, yData, 1)
-	print "Regression is :" + str(m)
+	#print "hello"
+
+	#for price in price_list:
+	#	print price
+
+	coefficients = np.polyfit(xData, yData, 1)
+	print "Regression is: " + str(coefficients[0])
 
 def main():
     for stock in companies:
