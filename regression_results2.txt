@@ -1,0 +1,237 @@
+AAPL tweet value on 2016-05-14 is 14 and change is 0.389999
+AAPL tweet value on 2016-05-18 is 1 and change is 0
+AAPL tweet value on 2016-05-17 is 14 and change is 0
+AAPL tweet value on 2016-05-01 is 22 and change is 0.3779998
+AAPL tweet value on 2016-05-02 is 75 and change is 0.3779998
+AAPL tweet value on 2016-05-03 is -9 and change is 0.8330001
+AAPL tweet value on 2016-05-04 is 1 and change is 0.472
+AAPL tweet value on 2016-05-05 is 14 and change is -0.061
+AAPL tweet value on 2016-05-06 is 3 and change is -1.13940320395e-14
+AAPL tweet value on 2016-05-16 is 9 and change is 0.389999
+AAPL tweet value on 2016-05-13 is -3 and change is -1.4850005
+AAPL tweet value on 2016-05-15 is 18 and change is 0.389999
+Regression is: 0.00527951740005
+
+CHL tweet value on 2016-05-17 is -4 and change is 0
+CHL tweet value on 2016-05-01 is 8 and change is 0.3900006
+CHL tweet value on 2016-05-13 is -4 and change is -0.3349995
+CHL tweet value on 2016-05-06 is 5 and change is -0.1450005
+Regression is: 0.0335294078431
+
+FB tweet value on 2016-05-14 is 7 and change is 1.32
+FB tweet value on 2016-05-18 is 8 and change is 0
+FB tweet value on 2016-05-17 is 11 and change is 0
+FB tweet value on 2016-05-04 is 5 and change is -0.522
+FB tweet value on 2016-05-02 is 16 and change is -0.2219994
+FB tweet value on 2016-05-03 is 9 and change is -0.5929994
+FB tweet value on 2016-05-13 is 6 and change is 1.23
+FB tweet value on 2016-05-05 is 41 and change is -0.7820006
+FB tweet value on 2016-05-06 is 13 and change is -0.1349999
+FB tweet value on 2016-05-16 is -1 and change is 1.32
+FB tweet value on 2016-05-15 is 9 and change is 1.32
+Regression is: -0.0439320375819
+
+GE tweet value on 2016-05-18 is 4 and change is 0
+GE tweet value on 2016-05-17 is 5 and change is 0
+GE tweet value on 2016-05-16 is 11 and change is 0.25
+GE tweet value on 2016-05-15 is 18 and change is 0.25
+GE tweet value on 2016-05-13 is 4 and change is -0.035
+GE tweet value on 2016-05-12 is -38 and change is 0.0820003
+GE tweet value on 2016-05-11 is 35 and change is 0.1590004
+GE tweet value on 2016-05-10 is 150 and change is 0.2770003
+GE tweet value on 2016-04-29 is 56 and change is 0.23
+GE tweet value on 2016-04-28 is -10 and change is 0.0670004
+GE tweet value on 2016-04-25 is -2 and change is -0.014
+GE tweet value on 2016-04-24 is 16 and change is -0.014
+GE tweet value on 2016-04-27 is 0 and change is 0.0270003
+GE tweet value on 2016-04-26 is 9 and change is 0.048
+GE tweet value on 2016-05-09 is 24 and change is 0.0850004
+GE tweet value on 2016-05-01 is 37 and change is 0.2279996
+GE tweet value on 2016-05-02 is 22 and change is 0.2279996
+GE tweet value on 2016-05-03 is 32 and change is 0.1709995
+GE tweet value on 2016-05-04 is 1 and change is 0.0369995
+GE tweet value on 2016-05-05 is -10 and change is -0.1520003
+GE tweet value on 2016-05-06 is -2 and change is -0.1269996
+GE tweet value on 2016-04-30 is 8 and change is 0.3559999
+Regression is: 0.00198776304585
+
+GOOG tweet value on 2016-05-14 is 1 and change is 10.26001
+GOOG tweet value on 2016-05-18 is 9 and change is 0
+GOOG tweet value on 2016-05-17 is 3 and change is 0
+GOOG tweet value on 2016-05-01 is -2 and change is -3.4889954
+GOOG tweet value on 2016-05-02 is -10 and change is -3.4889954
+GOOG tweet value on 2016-05-03 is 5 and change is -6.2010011
+GOOG tweet value on 2016-05-04 is 1 and change is -6.1290038
+GOOG tweet value on 2016-05-05 is 11 and change is -6.7030029
+GOOG tweet value on 2016-05-06 is -5 and change is -2.2789918
+GOOG tweet value on 2016-05-16 is 3 and change is 10.26001
+GOOG tweet value on 2016-05-13 is -2 and change is 2.3000185
+GOOG tweet value on 2016-05-15 is 14 and change is 10.26001
+Regression is: 0.217948831658
+
+JNJ tweet value on 2016-05-08 is -1 and change is 0.0760001
+JNJ tweet value on 2016-05-09 is 6 and change is 0.0760001
+JNJ tweet value on 2016-05-14 is -2 and change is 0.61
+JNJ tweet value on 2016-05-18 is -6 and change is 0
+JNJ tweet value on 2016-05-01 is 0 and change is -0.0169991
+JNJ tweet value on 2016-05-15 is 3 and change is 0.61
+JNJ tweet value on 2016-05-03 is 1 and change is -0.0809984
+JNJ tweet value on 2016-05-04 is 1 and change is -0.4360001
+JNJ tweet value on 2016-05-05 is 1 and change is -0.6350006
+JNJ tweet value on 2016-05-06 is -2 and change is -0.5840012
+JNJ tweet value on 2016-05-12 is -4 and change is 0.0319999
+JNJ tweet value on 2016-04-29 is 3 and change is -0.0359999
+JNJ tweet value on 2016-04-28 is 3 and change is -0.1299995
+JNJ tweet value on 2016-05-13 is 15 and change is -0.135002
+JNJ tweet value on 2016-05-11 is -24 and change is 0.0460008
+JNJ tweet value on 2016-04-30 is -2 and change is 0.00800099999998
+JNJ tweet value on 2016-05-10 is 4 and change is 0.347
+Regression is: -0.00151588596273
+
+JPM tweet value on 2016-05-09 is 1 and change is 0.0289997
+JPM tweet value on 2016-05-14 is 0 and change is -7.1054273576e-15
+JPM tweet value on 2016-05-18 is 22 and change is 0
+JPM tweet value on 2016-05-17 is 4 and change is 0
+JPM tweet value on 2016-05-01 is 0 and change is 0.5700005
+JPM tweet value on 2016-05-15 is 2 and change is -7.1054273576e-15
+JPM tweet value on 2016-05-03 is 4 and change is 0.3210007
+JPM tweet value on 2016-05-04 is 5 and change is 0.0720007
+JPM tweet value on 2016-05-05 is -2 and change is -0.2009998
+JPM tweet value on 2016-05-06 is -11 and change is -0.1460011
+JPM tweet value on 2016-05-12 is 12 and change is -0.0129999
+JPM tweet value on 2016-04-29 is 6 and change is 0.6120003
+JPM tweet value on 2016-04-28 is -4 and change is 0.2529991
+JPM tweet value on 2016-05-13 is 7 and change is -0.2299995
+JPM tweet value on 2016-05-11 is -6 and change is 0.1020002
+JPM tweet value on 2016-05-16 is 1 and change is -7.1054273576e-15
+JPM tweet value on 2016-04-30 is 14 and change is 0.8639998
+JPM tweet value on 2016-05-10 is 68 and change is 0.2560001
+JPM tweet value on 2016-04-25 is -1 and change is 0.1129996
+JPM tweet value on 2016-04-27 is 7 and change is 0.1359997
+JPM tweet value on 2016-04-26 is -1 and change is 0.27
+Regression is: 0.00311303430986
+
+MSFT tweet value on 2016-05-14 is -8 and change is 1.320004
+MSFT tweet value on 2016-05-18 is 17 and change is 0
+MSFT tweet value on 2016-05-17 is 3 and change is 0
+MSFT tweet value on 2016-05-01 is -3 and change is 0.0280004
+MSFT tweet value on 2016-05-02 is 31 and change is 0.0280004
+MSFT tweet value on 2016-05-03 is 11 and change is -0.19
+MSFT tweet value on 2016-05-04 is 9 and change is -0.1050003
+MSFT tweet value on 2016-05-05 is 3 and change is -0.2920004
+MSFT tweet value on 2016-05-06 is 3 and change is -0.293
+MSFT tweet value on 2016-05-12 is 10 and change is 0.225
+MSFT tweet value on 2016-04-29 is 3 and change is 0.0830002
+MSFT tweet value on 2016-04-28 is 0 and change is -0.0379993
+MSFT tweet value on 2016-05-13 is 1 and change is 0.285002
+MSFT tweet value on 2016-05-11 is 1 and change is -0.1910013
+MSFT tweet value on 2016-05-16 is -4 and change is 1.320004
+MSFT tweet value on 2016-04-30 is 4 and change is 0.1920006
+MSFT tweet value on 2016-05-15 is -4 and change is 1.320004
+Regression is: -0.0282533466664
+
+NVS tweet value on 2016-05-09 is 3 and change is -0.00200030000001
+NVS tweet value on 2016-05-18 is 11 and change is 0
+NVS tweet value on 2016-05-17 is -7 and change is 0
+NVS tweet value on 2016-05-13 is 0 and change is -0.489998
+NVS tweet value on 2016-05-02 is 22 and change is 0.9569984
+NVS tweet value on 2016-05-03 is 7 and change is 0.9389993
+NVS tweet value on 2016-05-04 is 6 and change is 0.0560006
+NVS tweet value on 2016-05-06 is -1 and change is -0.7089988
+NVS tweet value on 2016-04-29 is 22 and change is 0.5649992
+NVS tweet value on 2016-05-16 is -3 and change is -0.080002
+NVS tweet value on 2016-04-30 is -11 and change is 0.9939978
+NVS tweet value on 2016-04-25 is 0 and change is 0.1139999
+NVS tweet value on 2016-04-24 is 0 and change is 0.1139999
+NVS tweet value on 2016-04-27 is -10 and change is 0.1260018
+NVS tweet value on 2016-04-26 is 12 and change is 0.2929999
+Regression is: 0.0159571446847
+
+PG tweet value on 2016-05-09 is 1 and change is 0.1849999
+PG tweet value on 2016-05-14 is 0 and change is 1.009994
+PG tweet value on 2016-05-18 is -3 and change is 0
+PG tweet value on 2016-05-17 is -15 and change is 0
+PG tweet value on 2016-05-01 is 10 and change is -0.2519997
+PG tweet value on 2016-05-02 is -10 and change is -0.2519997
+PG tweet value on 2016-05-03 is 1 and change is -0.2790002
+PG tweet value on 2016-05-04 is 6 and change is -0.2390009
+PG tweet value on 2016-05-05 is 3 and change is -0.3530006
+PG tweet value on 2016-05-06 is -5 and change is -0.0420015
+PG tweet value on 2016-05-12 is 12 and change is 0.4970009
+PG tweet value on 2016-04-28 is -1 and change is -0.4869986
+PG tweet value on 2016-05-13 is -1 and change is 0.305
+PG tweet value on 2016-05-11 is 3 and change is 0.2740016
+PG tweet value on 2016-05-16 is -1 and change is 1.009994
+PG tweet value on 2016-04-30 is 10 and change is -0.1490006
+PG tweet value on 2016-04-25 is 0 and change is 0.2370003
+PG tweet value on 2016-05-15 is -3 and change is 1.009994
+PG tweet value on 2016-04-27 is 4 and change is -0.3600007
+PG tweet value on 2016-04-26 is 5 and change is -0.1580003
+Regression is: -0.00592412114615
+
+PTR tweet value on 2016-05-04 is 5 and change is 1.1269987
+PTR tweet value on 2016-04-28 is -44 and change is 0.7919992
+PTR tweet value on 2016-05-15 is 10 and change is -0.010002
+PTR tweet value on 2016-04-25 is 10 and change is -0.2139993
+PTR tweet value on 2016-05-11 is 8 and change is 0.2419991
+Regression is: -0.0114756456561
+
+WFC tweet value on 2016-05-08 is -9 and change is 0.1479999
+WFC tweet value on 2016-05-09 is 3 and change is 0.1479999
+WFC tweet value on 2016-05-14 is 1 and change is 0.650001
+WFC tweet value on 2016-05-18 is 6 and change is 0
+WFC tweet value on 2016-05-17 is 3 and change is 0
+WFC tweet value on 2016-05-16 is -1 and change is 0.650001
+WFC tweet value on 2016-05-02 is 16 and change is 0.4180001
+WFC tweet value on 2016-05-03 is 10 and change is 0.292
+WFC tweet value on 2016-05-13 is 11 and change is 0.3100015
+WFC tweet value on 2016-05-05 is -20 and change is -0.118001
+WFC tweet value on 2016-05-06 is -3 and change is -0.0700007
+WFC tweet value on 2016-05-12 is 0 and change is 0.4710008
+WFC tweet value on 2016-04-28 is -9 and change is 0.062
+WFC tweet value on 2016-05-11 is 0 and change is 0.3390005
+WFC tweet value on 2016-04-30 is 4 and change is 0.5950004
+WFC tweet value on 2016-05-10 is -6 and change is 0.3360001
+WFC tweet value on 2016-04-25 is 3 and change is 0.1569994
+WFC tweet value on 2016-04-24 is 3 and change is 0.1569994
+WFC tweet value on 2016-04-26 is 3 and change is 0.3339994
+Regression is: 0.0107570405402
+
+WMT tweet value on 2016-05-18 is 4 and change is 0
+WMT tweet value on 2016-05-17 is 25 and change is 0
+WMT tweet value on 2016-05-16 is 3 and change is 0.919999
+WMT tweet value on 2016-05-15 is 3 and change is 0.919999
+WMT tweet value on 2016-05-14 is 8 and change is 0.919999
+WMT tweet value on 2016-05-13 is -33 and change is -0.079998
+WMT tweet value on 2016-05-12 is -14 and change is 0.4170005
+WMT tweet value on 2016-05-11 is -16 and change is 0.3080017
+WMT tweet value on 2016-05-10 is 0 and change is 1.1110003
+WMT tweet value on 2016-04-29 is 24 and change is -0.0370001
+WMT tweet value on 2016-04-28 is -6 and change is 0.5010019
+WMT tweet value on 2016-04-25 is 11 and change is 0.5589995
+WMT tweet value on 2016-04-24 is 1 and change is 0.5589995
+WMT tweet value on 2016-04-27 is 7 and change is 0.7530007
+WMT tweet value on 2016-04-26 is 8 and change is 0.7799994
+WMT tweet value on 2016-05-09 is 0 and change is 0.9959993
+WMT tweet value on 2016-05-01 is 9 and change is -0.1530007
+WMT tweet value on 2016-05-02 is -16 and change is -0.1530007
+WMT tweet value on 2016-05-03 is 9 and change is -0.3769997
+WMT tweet value on 2016-05-04 is 7 and change is -0.6319986
+WMT tweet value on 2016-05-05 is -4 and change is -0.5440003
+WMT tweet value on 2016-05-07 is 6 and change is 0.8679994
+WMT tweet value on 2016-04-30 is 8 and change is 0.0949989
+Regression is: 0.00157545904777
+
+XOM tweet value on 2016-05-14 is -2 and change is 0.040001
+XOM tweet value on 2016-05-18 is 5 and change is 0
+XOM tweet value on 2016-05-17 is 5 and change is 0
+XOM tweet value on 2016-05-13 is -1 and change is -0.4349975
+XOM tweet value on 2016-05-15 is -6 and change is 0.040001
+XOM tweet value on 2016-05-03 is 4 and change is -0.1300002
+XOM tweet value on 2016-05-04 is 0 and change is -0.2359995
+XOM tweet value on 2016-05-05 is 2 and change is -0.5909989
+XOM tweet value on 2016-05-06 is 1 and change is -0.2319986
+XOM tweet value on 2016-05-12 is 4 and change is -0.0489999
+XOM tweet value on 2016-05-16 is -1 and change is 0.040001
+XOM tweet value on 2016-05-02 is -1 and change is 0.130999
+Regression is: -0.0082275079452
