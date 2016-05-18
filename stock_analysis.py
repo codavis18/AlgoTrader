@@ -41,9 +41,14 @@ def getChangeRate(prices):
 # returns true if the stock price has a positive rate of change over the period
 def getStockData(ticker, tweetDate, interval):
 
-	startDate = convertDate(tweetDate)
+	tokens = tweetDate.split()
+	if len(tokens) > 1:
+		startDate = convertDate(tweetDate)
+	else:
+		startDate = tweetDate
+
 	endDate = startDate + datetime.timedelta(days=interval)
-	print "Getting data for: " + ticker + " from " + str(startDate.date()) + " to " + str(endDate.date())
+#	print "Getting data for: " + ticker + " from " + str(startDate.date()) + " to " + str(endDate.date())
 
 	stock = Share(ticker)
 
@@ -52,13 +57,15 @@ def getStockData(ticker, tweetDate, interval):
 	prices = []
 	for result in results:
 		prices.append(float(result['Close']))
-		print "Price on " + result['Date'] + " at close was: " + result['Close']
+#		print "Price on " + result['Date'] + " at close was: " + result['Close']
 
-	changeRate = getChangeRate(prices)
+	if len(prices) > 0:
+		changeRate = getChangeRate(prices)
+		return changeRate
+	else:
+		return 0
+#	print "Slope of regression fit to stock data: " + str(changeRate)
 
-	print "Slope of regression fit to stock data: " + str(changeRate)
-
-	return (changeRate > 0)
 
 getStockData('AAPL', tweetDate, 5)
 
