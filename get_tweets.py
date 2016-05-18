@@ -1,6 +1,9 @@
 # Chris Davis
 # script to grab tweets from Twitter API
+# Adapted from IBM AlchemyAPI 'recipe.py'
 # stores raw tweet data in ~/tweet_data/
+
+#!/usr/bin/python
 
 import sys, requests, urllib, base64, csv
 
