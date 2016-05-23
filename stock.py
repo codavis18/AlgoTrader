@@ -6,6 +6,7 @@ class Stock:
 		# prices and values are dictionaries with key as date of tweet
 		self.prices = {}
 		self.values = {}
+		self.words = {}
 		self.threshold = threshold
 
 	def __str__(self):

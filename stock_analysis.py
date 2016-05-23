@@ -38,7 +38,7 @@ def getChangeRate(prices):
 	return m
 
 
-# returns true if the stock price has a positive rate of change over the period
+# returns the rate of change as a percentage of the average price for the period
 def getStockData(ticker, tweetDate, interval):
 
 	tokens = tweetDate.split()
@@ -55,14 +55,16 @@ def getStockData(ticker, tweetDate, interval):
 	results = stock.get_historical(str(startDate.date()), str(endDate.date()))
 
 	prices = []
+	price_sum = 0
 	for result in results:
 #		print result['Close']
 		prices.append(float(result['Close']))
 #		print "Price on " + result['Date'] + " at close was: " + result['Close']
+		price_sum += float(result['Close'])
 
 	if len(prices) > 1:
 		changeRate = getChangeRate(prices)
-		return changeRate
+		return (changeRate/price_sum)*1000
 	else:
 		return 0
 #	print "Slope of regression fit to stock data: " + str(changeRate)

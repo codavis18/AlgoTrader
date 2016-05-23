@@ -30,3 +30,5 @@ buy,1
 sell,-1
 long,1
 short,-1
+happy,1
+sad,-1
