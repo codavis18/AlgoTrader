@@ -6,11 +6,10 @@
 from stock import *
 import csv
 from stock_analysis import *
-from dictionarycreation import *
 from tweet import Tweet
 import datetime
 
-companies = ["AAPL", "BRK.A", "CHL", "FB", "GE", "GOOG", "JNJ", "JPM", "MSFT", "NVS", "PG", "PTR", "WFC", "WMT", "XOM"]
+companies = ["AAPL", "CHL", "FB", "GE", "GOOG", "JNJ", "JPM", "MSFT", "NVS", "PG", "PTR", "WFC", "WMT", "XOM"]
 
 def parse_csv(ticker):
     filename = 'tweet_data/' + str(ticker) + '.csv'
@@ -36,8 +35,7 @@ def create_sentiment_dictionary():
     return sentiment_dictionary
 
 
-def increment(ticker, interval):
-    sentiment_dict = create_sentiment_dictionary()
+def increment(ticker, interval, sentiment_dict):
     tweet_list = parse_csv(ticker)
     stock = Stock(ticker)
     for tweet in tweet_list:
@@ -102,9 +100,11 @@ def regress(stock):
 	coefficients = np.polyfit(xData, yData, 1)
 	print "Regression is: " + str(coefficients[0])
 
+
 def main():
+    sentiment_dict = create_sentiment_dictionary()
     for stock in companies:
-        scored_stock = increment(stock, 5)
+        scored_stock = increment(stock, 5, sentiment_dict)
 	regress(scored_stock)
 
 main()
