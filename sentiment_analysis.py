@@ -132,7 +132,7 @@ def main():
 
 	fit_fn = np.poly1d(c)
 	plot.plot(x, y, 'yo', x, fit_fn(x), '--k')
-	plot.savefig(scored_stock.name + '.png')
+	plot.savefig("plots/" + scored_stock.name + '.png')
 	plot.close()
 main()
 
