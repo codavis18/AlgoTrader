@@ -74,7 +74,7 @@ def increment(ticker, interval, sentiment_dict):
 				if date_key in stock.words:
 					stock.words[date_key] += 1.0
 				else:
-					stock.words[date_key] = 1.0
+					stock.words[date_key] = 10.0
 
 	for key in stock.values:
 		if key in stock.words:

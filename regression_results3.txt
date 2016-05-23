@@ -1,0 +1,240 @@
+AAPL tweet value on 2016-05-14 is 3.41463414634 and change is -0.53970703054
+AAPL tweet value on 2016-05-18 is 0.555555555556 and change is -1.16205896418
+AAPL tweet value on 2016-05-17 is 2.97872340426 and change is -1.27957402622
+AAPL tweet value on 2016-05-01 is 2.58823529412 and change is 0.806021280679
+AAPL tweet value on 2016-05-02 is 1.82038834951 and change is 0.806021280679
+AAPL tweet value on 2016-05-03 is -1.8 and change is 2.21938053921
+AAPL tweet value on 2016-05-04 is 0.833333333333 and change is 1.26561912766
+AAPL tweet value on 2016-05-05 is 1.86666666667 and change is -0.163903593325
+AAPL tweet value on 2016-05-06 is 2.14285714286 and change is -3.06752960858e-14
+AAPL tweet value on 2016-05-16 is 2.8125 and change is -0.719212276383
+AAPL tweet value on 2016-05-13 is -1.07142857143 and change is -3.14941718753
+AAPL tweet value on 2016-05-15 is 3.27272727273 and change is -0.719212276383
+Regression is: -0.0874374804 with total residuals of 21.2682026811
+
+CHL tweet value on 2016-05-17 is -3.07692307692 and change is 0.930104999173
+CHL tweet value on 2016-05-01 is 4.70588235294 and change is 1.38014227037
+CHL tweet value on 2016-05-13 is -3.07692307692 and change is 0.488652790181
+CHL tweet value on 2016-05-06 is 3.57142857143 and change is -0.650722515136
+Regression is: -0.025328670493 with total residuals of 2.24462823171
+
+FB tweet value on 2016-05-14 is 2.05882352941 and change is 1.12225727871
+FB tweet value on 2016-05-18 is 1.77777777778 and change is 0.426372191958
+FB tweet value on 2016-05-17 is 1.96428571429 and change is 0.179044250823
+FB tweet value on 2016-05-04 is 2.27272727273 and change is -1.09987359629
+FB tweet value on 2016-05-02 is 1.1875 and change is -0.375404833354
+FB tweet value on 2016-05-03 is 1.71875 and change is -1.25425539357
+FB tweet value on 2016-05-13 is 0.740740740741 and change is 1.64737434863
+FB tweet value on 2016-05-05 is 2.4 and change is -1.63927681082
+FB tweet value on 2016-05-06 is 3.82352941176 and change is -0.281984129449
+FB tweet value on 2016-05-16 is -0.217391304348 and change is 0.540972735733
+FB tweet value on 2016-05-15 is 3.21428571429 and change is 0.540972735733
+Regression is: -0.284836749548 with total residuals of 9.46750187782
+
+GE tweet value on 2016-05-18 is 1.37931034483 and change is 0.282401442648
+GE tweet value on 2016-05-17 is 2.5 and change is 0.59201623816
+GE tweet value on 2016-05-16 is 4.23076923077 and change is 0.775977063266
+GE tweet value on 2016-05-15 is 6.66666666667 and change is 0.775977063266
+GE tweet value on 2016-05-13 is 1.21212121212 and change is 0.285901451159
+GE tweet value on 2016-05-12 is -4.17582417582 and change is 0.686769698998
+GE tweet value on 2016-05-11 is 3.0701754386 and change is 1.32467218736
+GE tweet value on 2016-05-10 is 9.43396226415 and change is 2.29780424967
+GE tweet value on 2016-04-29 is 8.61538461538 and change is 1.88000656989
+GE tweet value on 2016-04-28 is -3.44827586207 and change is 0.543966883883
+GE tweet value on 2016-04-25 is -0.571428571429 and change is -0.0908147379346
+GE tweet value on 2016-04-24 is 6.4 and change is -0.0908147379346
+GE tweet value on 2016-04-27 is 0.0 and change is 0.218679033115
+GE tweet value on 2016-04-26 is 3.75 and change is 0.388726919339
+GE tweet value on 2016-05-09 is 7.27272727273 and change is 0.565087089483
+GE tweet value on 2016-05-01 is 8.04347826087 and change is 1.50395516496
+GE tweet value on 2016-05-02 is 4.15094339623 and change is 1.50395516496
+GE tweet value on 2016-05-03 is 5.61403508772 and change is 1.41661421106
+GE tweet value on 2016-05-04 is 1.5625 and change is 0.308457688133
+GE tweet value on 2016-05-05 is -3.7037037037 and change is -1.2628805146
+GE tweet value on 2016-05-06 is -1.33333333333 and change is -1.05123415195
+GE tweet value on 2016-04-30 is 4.70588235294 and change is 2.93052279216
+Regression is: 0.15417963298 with total residuals of 12.0578973242
+
+GOOG tweet value on 2016-05-14 is 1.0 and change is 1.70019558132
+GOOG tweet value on 2016-05-18 is 5.0 and change is -0.734634026962
+GOOG tweet value on 2016-05-17 is 2.5 and change is -0.149491732919
+GOOG tweet value on 2016-05-01 is -1.81818181818 and change is -0.997192022745
+GOOG tweet value on 2016-05-02 is -2.12765957447 and change is -0.997192022745
+GOOG tweet value on 2016-05-03 is 2.08333333333 and change is -2.2141608911
+GOOG tweet value on 2016-05-04 is 0.833333333333 and change is -2.17251962776
+GOOG tweet value on 2016-05-05 is 4.58333333333 and change is -2.35306195899
+GOOG tweet value on 2016-05-06 is -1.5625 and change is -0.796157124728
+GOOG tweet value on 2016-05-16 is 1.07142857143 and change is 0.548395725659
+GOOG tweet value on 2016-05-13 is -1.81818181818 and change is 0.804880185917
+GOOG tweet value on 2016-05-15 is 3.58974358974 and change is 0.548395725659
+Regression is: -0.0803664625735 with total residuals of 18.1572061791
+
+JNJ tweet value on 2016-05-08 is -0.833333333333 and change is 0.133204976953
+JNJ tweet value on 2016-05-09 is 3.15789473684 and change is 0.133204976953
+JNJ tweet value on 2016-05-14 is -1.33333333333 and change is 1.1018051114
+JNJ tweet value on 2016-05-18 is -4.0 and change is 1.40084496227
+JNJ tweet value on 2016-05-01 is 0.0 and change is -0.030178774429
+JNJ tweet value on 2016-05-15 is 2.5 and change is 0.80726359817
+JNJ tweet value on 2016-05-03 is 0.625 and change is -0.17978469882
+JNJ tweet value on 2016-05-04 is 0.454545454545 and change is -0.965541905609
+JNJ tweet value on 2016-05-05 is 1.0 and change is -1.39864894692
+JNJ tweet value on 2016-05-06 is -1.53846153846 and change is -1.28211020856
+JNJ tweet value on 2016-05-12 is -3.07692307692 and change is 0.0701659861623
+JNJ tweet value on 2016-04-29 is 1.875 and change is -0.0800460257033
+JNJ tweet value on 2016-04-28 is 1.875 and change is -0.288887773284
+JNJ tweet value on 2016-05-13 is 5.0 and change is 0.114181635037
+JNJ tweet value on 2016-05-11 is -3.93442622951 and change is 0.10074638501
+JNJ tweet value on 2016-04-30 is -1.33333333333 and change is 0.0177586895725
+JNJ tweet value on 2016-05-10 is 3.07692307692 and change is 0.759582335838
+Regression is: -0.0304005302784 with total residuals of 9.01611847725
+
+JPM tweet value on 2016-05-09 is 1.0 and change is 0.0941456994829
+JPM tweet value on 2016-05-14 is 0.0 and change is -3.01894237288
+JPM tweet value on 2016-05-18 is 2.85714285714 and change is 1.38787840565
+JPM tweet value on 2016-05-17 is 3.07692307692 and change is -1.93982265986
+JPM tweet value on 2016-05-01 is 0.0 and change is 1.83421449457
+JPM tweet value on 2016-05-15 is 1.81818181818 and change is -1.72786706376
+JPM tweet value on 2016-05-03 is 1.73913043478 and change is 1.29975583553
+JPM tweet value on 2016-05-04 is 1.25 and change is 0.293138589256
+JPM tweet value on 2016-05-05 is -0.952380952381 and change is -0.816773538136
+JPM tweet value on 2016-05-06 is -2.75 and change is -0.591912351382
+JPM tweet value on 2016-05-12 is 4.13793103448 and change is -0.0527828979952
+JPM tweet value on 2016-04-29 is 4.0 and change is 2.43708303874
+JPM tweet value on 2016-04-28 is -1.6 and change is 0.999403906777
+JPM tweet value on 2016-05-13 is 3.88888888889 and change is -3.42774377673
+JPM tweet value on 2016-05-11 is -1.53846153846 and change is 0.413894656599
+JPM tweet value on 2016-05-16 is 0.833333333333 and change is -1.72786706376
+JPM tweet value on 2016-04-30 is 6.08695652174 and change is 3.46765045003
+JPM tweet value on 2016-05-10 is 6.73267326733 and change is 1.03719348873
+JPM tweet value on 2016-04-25 is -0.625 and change is 0.354853663829
+JPM tweet value on 2016-04-27 is 4.375 and change is 0.533960343408
+JPM tweet value on 2016-04-26 is -0.714285714286 and change is 1.05948830639
+Regression is: 0.137470515067 with total residuals of 57.6643225138
+
+MSFT tweet value on 2016-05-14 is -2.75862068966 and change is 2.07893201907
+MSFT tweet value on 2016-05-18 is 6.53846153846 and change is 0.626036243822
+MSFT tweet value on 2016-05-17 is 1.875 and change is 0.0791051130139
+MSFT tweet value on 2016-05-01 is -2.14285714286 and change is 0.111737899897
+MSFT tweet value on 2016-05-02 is 4.84375 and change is 0.111737899897
+MSFT tweet value on 2016-05-03 is 2.75 and change is -0.950095028505
+MSFT tweet value on 2016-05-04 is 3.7037037037 and change is -0.524293711354
+MSFT tweet value on 2016-05-05 is 1.36363636364 and change is -1.44970908003
+MSFT tweet value on 2016-05-06 is 2.14285714286 and change is -1.44669926872
+MSFT tweet value on 2016-05-12 is 1.96078431373 and change is 1.09793588054
+MSFT tweet value on 2016-04-29 is 0.540540540541 and change is 0.414731428719
+MSFT tweet value on 2016-04-28 is 0.0 and change is -0.189844623352
+MSFT tweet value on 2016-05-13 is 0.3125 and change is 1.04294519351
+MSFT tweet value on 2016-05-11 is 1.0 and change is -0.929582416267
+MSFT tweet value on 2016-05-16 is -1.36363636364 and change is 1.0271966626
+MSFT tweet value on 2016-04-30 is 2.66666666667 and change is 0.959043965625
+MSFT tweet value on 2016-05-15 is -1.90476190476 and change is 1.0271966626
+Regression is: -0.137260259981 with total residuals of 14.06389527
+
+NVS tweet value on 2016-05-09 is 1.36363636364 and change is -0.0053402568421
+NVS tweet value on 2016-05-18 is 5.5 and change is 0.0
+NVS tweet value on 2016-05-17 is -2.91666666667 and change is 0.284784751128
+NVS tweet value on 2016-05-13 is 0.0 and change is -1.0799695223
+NVS tweet value on 2016-05-02 is 2.93333333333 and change is 2.55574412397
+NVS tweet value on 2016-05-03 is 4.375 and change is 3.15513346865
+NVS tweet value on 2016-05-04 is 4.0 and change is 0.189191211103
+NVS tweet value on 2016-05-06 is -0.625 and change is -2.37911075213
+NVS tweet value on 2016-04-29 is 7.09677419355 and change is 1.86314657873
+NVS tweet value on 2016-05-16 is -1.36363636364 and change is 0.18537353354
+NVS tweet value on 2016-04-30 is -5.5 and change is 3.29793561183
+NVS tweet value on 2016-04-25 is 0.0 and change is 0.297533341257
+NVS tweet value on 2016-04-24 is 0.0 and change is 0.297533341257
+NVS tweet value on 2016-04-27 is -1.81818181818 and change is 0.410964777632
+NVS tweet value on 2016-04-26 is 3.63636363636 and change is 0.955486382014
+Regression is: 0.0551556539494 with total residuals of 31.8639102215
+
+PG tweet value on 2016-05-09 is 1.0 and change is 0.450790451127
+PG tweet value on 2016-05-14 is 0.0 and change is 1.5793198672
+PG tweet value on 2016-05-18 is -1.25 and change is -0.354076068742
+PG tweet value on 2016-05-17 is -6.25 and change is 0.455286890358
+PG tweet value on 2016-05-01 is 5.26315789474 and change is -0.619011795276
+PG tweet value on 2016-05-02 is -2.5641025641 and change is -0.619011795276
+PG tweet value on 2016-05-03 is 1.0 and change is -0.855487699451
+PG tweet value on 2016-05-04 is 4.0 and change is -0.730554483477
+PG tweet value on 2016-05-05 is 2.5 and change is -1.0761228959
+PG tweet value on 2016-05-06 is -3.125 and change is -0.127710713213
+PG tweet value on 2016-05-12 is 5.71428571429 and change is 1.52505719514
+PG tweet value on 2016-04-28 is -0.833333333333 and change is -1.51265287762
+PG tweet value on 2016-05-13 is -1.0 and change is 1.59280270438
+PG tweet value on 2016-05-11 is 2.5 and change is 0.836850513038
+PG tweet value on 2016-05-16 is -0.714285714286 and change is 0.907260825537
+PG tweet value on 2016-04-30 is 5.26315789474 and change is -0.458505708219
+PG tweet value on 2016-04-25 is 0.0 and change is 0.5914213897
+PG tweet value on 2016-05-15 is -2.14285714286 and change is 0.907260825537
+PG tweet value on 2016-04-27 is 1.90476190476 and change is -1.12240660469
+PG tweet value on 2016-04-26 is 2.27272727273 and change is -0.494802381737
+Regression is: -0.0443977408972 with total residuals of 17.4015382405
+
+PTR tweet value on 2016-05-04 is 3.57142857143 and change is 4.03927715923
+PTR tweet value on 2016-04-28 is -8.30188679245 and change is 2.72839748459
+PTR tweet value on 2016-05-15 is 5.26315789474 and change is 1.77199416812
+PTR tweet value on 2016-04-25 is 5.26315789474 and change is -0.582073447329
+PTR tweet value on 2016-05-11 is 4.70588235294 and change is 0.882692962679
+Regression is: -0.119387720637 with total residuals of 10.4326057229
+
+WFC tweet value on 2016-05-08 is -5.0 and change is 0.604574735145
+WFC tweet value on 2016-05-09 is 2.5 and change is 0.604574735145
+WFC tweet value on 2016-05-14 is 1.0 and change is -0.704958524726
+WFC tweet value on 2016-05-18 is 2.22222222222 and change is -0.342975709776
+WFC tweet value on 2016-05-17 is 2.5 and change is -1.61323783233
+WFC tweet value on 2016-05-16 is -0.833333333333 and change is -0.711715142867
+WFC tweet value on 2016-05-02 is 2.46153846154 and change is 1.68882107138
+WFC tweet value on 2016-05-03 is 5.26315789474 and change is 1.48283568437
+WFC tweet value on 2016-05-13 is 5.0 and change is -0.300860561767
+WFC tweet value on 2016-05-05 is -6.89655172414 and change is -0.601248337906
+WFC tweet value on 2016-05-06 is -1.15384615385 and change is -0.356455332609
+WFC tweet value on 2016-05-12 is 0.0 and change is 2.43625301364
+WFC tweet value on 2016-04-28 is -5.0 and change is 0.308488406807
+WFC tweet value on 2016-05-11 is 0.0 and change is 1.74033826838
+WFC tweet value on 2016-04-30 is 3.07692307692 and change is 2.99763416794
+WFC tweet value on 2016-05-10 is -4.0 and change is 1.71498615759
+WFC tweet value on 2016-04-25 is 2.5 and change is 0.62116479717
+WFC tweet value on 2016-04-24 is 2.5 and change is 0.62116479717
+WFC tweet value on 2016-04-26 is 1.66666666667 and change is 1.65150021412
+Regression is: 0.0485744579323 with total residuals of 26.6851088503
+
+WMT tweet value on 2016-05-18 is 0.430107526882 and change is -16.5916596607
+WMT tweet value on 2016-05-17 is 3.90625 and change is -7.60540352105
+WMT tweet value on 2016-05-16 is 0.535714285714 and change is -3.53403749339
+WMT tweet value on 2016-05-15 is 1.07142857143 and change is -3.53403749339
+WMT tweet value on 2016-05-14 is 2.42424242424 and change is -2.8807849747
+WMT tweet value on 2016-05-13 is -2.11538461538 and change is 2.42660353546
+WMT tweet value on 2016-05-12 is -2.45614035088 and change is 1.5860960326
+WMT tweet value on 2016-05-11 is -2.80701754386 and change is 1.16570168358
+WMT tweet value on 2016-05-10 is 0.0 and change is 4.16120558521
+WMT tweet value on 2016-04-29 is 1.86046511628 and change is -0.137726037083
+WMT tweet value on 2016-04-28 is -0.89552238806 and change is 1.85302324385
+WMT tweet value on 2016-04-25 is 5.5 and change is 1.62514023134
+WMT tweet value on 2016-04-24 is 1.0 and change is 1.62514023134
+WMT tweet value on 2016-04-27 is 4.375 and change is 2.76036767198
+WMT tweet value on 2016-04-26 is 2.42424242424 and change is 2.84152778604
+WMT tweet value on 2016-05-09 is 0.0 and change is 2.96481304421
+WMT tweet value on 2016-05-01 is 2.5 and change is -0.453684916858
+WMT tweet value on 2016-05-02 is -2.25352112676 and change is -0.453684916858
+WMT tweet value on 2016-05-03 is 3.21428571429 and change is -1.39810754164
+WMT tweet value on 2016-05-04 is 3.18181818182 and change is -2.32694626161
+WMT tweet value on 2016-05-05 is -3.07692307692 and change is -1.9912163469
+WMT tweet value on 2016-05-07 is 4.0 and change is 3.2029498155
+WMT tweet value on 2016-04-30 is 2.42424242424 and change is 0.353168894976
+Regression is: -0.077834784159 with total residuals of 439.056970635
+
+XOM tweet value on 2016-05-14 is -1.81818181818 and change is -0.40160698573
+XOM tweet value on 2016-05-18 is 3.125 and change is -0.72436850733
+XOM tweet value on 2016-05-17 is 3.57142857143 and change is -0.387478051877
+XOM tweet value on 2016-05-13 is -1.0 and change is -0.56844697553
+XOM tweet value on 2016-05-15 is -4.0 and change is -0.205219274639
+XOM tweet value on 2016-05-03 is 3.18181818182 and change is -0.36869029435
+XOM tweet value on 2016-05-04 is 0.0 and change is -0.668440198997
+XOM tweet value on 2016-05-05 is 0.8 and change is -1.66426993984
+XOM tweet value on 2016-05-06 is 0.833333333333 and change is -0.651901206316
+XOM tweet value on 2016-05-12 is 3.07692307692 and change is -0.137089499658
+XOM tweet value on 2016-05-16 is -1.0 and change is -0.205219274639
+XOM tweet value on 2016-05-02 is -0.294117647059 and change is 0.296558981981
+Regression is: -0.0295195328544 with total residuals of 2.37992047291
+
+
+
