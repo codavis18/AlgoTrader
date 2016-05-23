@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # nick fiacco and jack elder
 # creates dictionary based on csv file for good / bad words
 
@@ -9,6 +11,7 @@ from stock_analysis import *
 from tweet import Tweet
 import datetime
 import warnings
+import matplotlib.pyplot as plot
 
 companies = ["AAPL", "CHL", "FB", "GE", "GOOG", "JNJ", "JPM", "MSFT", "NVS", "PG", "PTR", "WFC", "WMT", "XOM"]
 
@@ -118,12 +121,18 @@ def regress(stock):
 	
 	print "Regression is: " + str(coefficients[0]) + " with total residuals of " + str(residuals[0])
 
+	return (xData, yData, coefficients)
+
 
 def main():
     sentiment_dict = create_sentiment_dictionary()
     for stock in companies:
         scored_stock = increment(stock, 5, sentiment_dict)
-	regress(scored_stock)
+	(x, y, c) = regress(scored_stock)
 
+	fit_fn = np.poly1d(c)
+	plot.plot(x, y, 'yo', x, fit_fn(x), '--k')
+	plot.savefig(scored_stock.name + '.png')
+	plot.close()
 main()
 
