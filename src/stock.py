@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+# jack elder and nick fiacco
 
 class Stock:
 	def __init__(self, name, threshold = 5):
@@ -11,4 +14,3 @@ class Stock:
 
 	def __str__(self):
 		return str(self.name)
-

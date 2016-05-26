@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+# jack elder and nick fiacco
 # used to store tweet data
 
 class Tweet:

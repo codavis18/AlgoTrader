@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/env python
 
 # Title: Stock Analysis
 # Author: Nick Fiacco
@@ -31,7 +31,7 @@ def convertDate(tweetDate):
 def getChangeRate(prices):
 
 	npData = np.array(prices).astype(np.float)
-	
+
 	x = np.array(range(len(npData)))
  	m, c = np.polyfit(x, npData, 1)
 
@@ -72,4 +72,3 @@ def getStockData(ticker, tweetDate, interval):
 
 #getStockData('AAPL', tweetDate, 5)
 getStockData('AAPL', "2016-05-17", 5)
-

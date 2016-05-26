@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# nick fiacco and jack elder
+# jack elder and nick fiacco
 # creates dictionary based on csv file for good / bad words
 
 # add some usage documentation you bitch

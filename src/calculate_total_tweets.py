@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Chris Davis
 # Calculates total number of tweets gathered across all tickers
 
@@ -22,7 +24,7 @@ def get_num_tweets(ticker):
 
   finally:
     return count
-    
+
 
 ticker_list = ['AAPL', 'GOOG', 'MSFT', 'XOM', 'BRK.A', 'WFC', 'JNJ', 'GE', 'CHL', 'JPM','NVS', 'FB', 'WMT', 'PTR', 'PG']
 total_tweets = 0
