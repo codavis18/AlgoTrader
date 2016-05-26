@@ -46,7 +46,7 @@ def increment(ticker, interval, sentiment_dict):
 
 	for tweet in tweet_list:
 	        body = tweet.body.strip()
-	
+
 		# get the date of the tweet
 		date = tweet.time
 		tokens = date.split()
@@ -55,20 +55,20 @@ def increment(ticker, interval, sentiment_dict):
 			date_key = str(datetime.datetime.strptime(dateStr, '%a %b %d %Y').date())
 		else:
 			continue
-       
-	
+
+
 		# determine the rate of change of the stock starting on date_key
 		if date_key not in stock.prices:
 			stock.prices[date_key] = getStockData(ticker, date, interval)
-	
- 
+
+
 		# aggregate the tweet value based on our sentiment dictionary
 		words = body.split()
 	        for word in words:
 
 			# check if the word is in the dictionary
 			if word in sentiment_dict:
-	
+
 				if date_key in stock.values:
 		                	stock.values[date_key] += sentiment_dict[word]
 				else:
@@ -109,7 +109,7 @@ def regress(stock):
 
 	#for value in value_list:
 	#	print value
-	
+
 	#print "hello"
 
 	#for price in price_list:
@@ -118,7 +118,7 @@ def regress(stock):
 	results = np.polyfit(xData, yData, 1, full=True)
 	coefficients = results[0]
 	residuals = results[1]
-	
+
 	print "Regression is: " + str(coefficients[0]) + " with total residuals of " + str(residuals[0])
 
 	return (xData, yData, coefficients)
@@ -132,7 +132,6 @@ def main():
 
 	fit_fn = np.poly1d(c)
 	plot.plot(x, y, 'yo', x, fit_fn(x), '--k')
-	plot.savefig("plots/" + scored_stock.name + '.png')
+	plot.savefig("../plots/" + scored_stock.name + '.png')
 	plot.close()
 main()
-
