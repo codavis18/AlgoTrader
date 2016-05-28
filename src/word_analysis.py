@@ -75,7 +75,7 @@ def increment(ticker, interval):
 				word_dict_list[date_key] = word_dict.copy()
 
 			# increment the frequency of the word on this date
-			word_dict_list[date_key][word] += 10.0
+			word_dict_list[date_key][word] += 1.0
 
 
 	# run the multivariate linear regression over stock price rate of change
