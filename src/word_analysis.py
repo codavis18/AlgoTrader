@@ -52,6 +52,7 @@ def increment(ticker, interval):
 
 		# get the date of the tweet
 		date = tweet.time
+
 		tokens = date.split()
 		if len(tokens) > 2:
 			dateStr = tokens[0] + " " + tokens[1] + " " + tokens[2] + " " + tokens[5]
@@ -66,14 +67,15 @@ def increment(ticker, interval):
 		# examine each word in this tweet
 		body = tweet.body.strip()
 		words = body.split()
-        for word in words:
+
+		for word in words:
 
 			# create a new dictionary for this date
 			if date_key not in word_dict_list:
 				word_dict_list[date_key] = word_dict.copy()
 
 			# increment the frequency of the word on this date
-			word_dict_list[date_key][word] += 1.0
+			word_dict_list[date_key][word] += 10.0
 
 
 	# run the multivariate linear regression over stock price rate of change
