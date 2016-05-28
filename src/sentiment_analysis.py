@@ -45,13 +45,13 @@ def increment(ticker, interval, sentiment_dict):
 
 
 	for tweet in tweet_list:
-	        body = tweet.body.strip()
+	    body = tweet.body.strip()
 
 		# get the date of the tweet
 		date = tweet.time
 		tokens = date.split()
 		if len(tokens) > 2:
-	 		dateStr = tokens[0] + " " + tokens[1] + " " + tokens[2] + " " + tokens[5]
+		    dateStr = tokens[0] + " " + tokens[1] + " " + tokens[2] + " " + tokens[5]
 			date_key = str(datetime.datetime.strptime(dateStr, '%a %b %d %Y').date())
 		else:
 			continue
