@@ -17,7 +17,7 @@ import matplotlib.pyplot as plot
 companies = ["AAPL", "CHL", "FB", "GE", "GOOG", "JNJ", "JPM", "MSFT", "NVS", "PG", "PTR", "WFC", "WMT", "XOM"]
 
 def parse_csv(ticker):
-    filename = 'tweet_data/' + str(ticker) + '.csv'
+    filename = '../tweet_data/' + str(ticker) + '.csv'
 
     tweet_list = []
 
@@ -31,7 +31,19 @@ def parse_csv(ticker):
     return tweet_list
 
 
+def create_sentiment_dictionary():
+    file = open("dict.txt", "r")
+    sentiment_dictionary = {}
+    for line in file:
+            s = line.strip()
+            sp = s.split(",")
+            sentiment_dictionary[sp[0]] = int(sp[1])
+    return sentiment_dictionary
+
+
 def increment(ticker, interval):
+	sentiment_dict = create_sentiment_dictionary()
+
 	tweet_list = parse_csv(ticker)
 	word_dict = {}
 	word_dict_list = {}
@@ -45,7 +57,9 @@ def increment(ticker, interval):
 
 			# add every word to the dictionary
 			if word not in word_dict:
-				word_dict[word] = 0
+				# only words in sentiment dictionary to limit covariance
+				if word in sentiment_dict:
+					word_dict[word] = 0.0
 
 	# aggregate word frequencies on each day independently
 	for tweet in tweet_list:
@@ -69,13 +83,15 @@ def increment(ticker, interval):
 		words = body.split()
 
 		for word in words:
+			# trick to limit covariance
+			if word in sentiment_dict:
 
-			# create a new dictionary for this date
-			if date_key not in word_dict_list:
-				word_dict_list[date_key] = word_dict.copy()
+				# create a new dictionary for this date
+				if date_key not in word_dict_list:
+					word_dict_list[date_key] = word_dict.copy()
 
-			# increment the frequency of the word on this date
-			word_dict_list[date_key][word] += 1.0
+				# increment the frequency of the word on this date
+				word_dict_list[date_key][word] += 1.0
 
 
 	# run the multivariate linear regression over stock price rate of change
@@ -97,6 +113,28 @@ def increment(ticker, interval):
 	npX = np.array(x_list)
 	npY = np.array(y)
 	results = np.linalg.lstsq(npX, npY)
+
+
+	for key in word_dict_list:
+		word_dict_list[key]["date_value"] = key
+		word_dict_list[key]["stock_percent_change"] = prices[key]
+
+	csvfilename = "../tables/" + ticker + '.csv'
+	with open(csvfilename, 'w') as csvfile:
+		fieldnames = []
+		fieldnames.append("date_value")
+		fieldnames.append("stock_percent_change")
+		for key in word_dict_list:
+			for word in word_dict_list[key]:
+				if word == "date_value" or word == "stock_percent_change":
+					continue
+				fieldnames.append(word)
+			break
+
+		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+		writer.writeheader()
+		for datekey in word_dict_list:
+			writer.writerow(word_dict_list[datekey])
 
 	return results[0]
 
