@@ -140,9 +140,11 @@ def increment(ticker, interval):
 
 def main():
 
-    for stock in companies:
-        coefficients = increment(stock, 5)
-	print "Coefficients for " + str(stock) + " are "
-	print coefficients
+	with open('table2.csv', 'wb') as csvfile:
+		writer = csv.writer(csvfile)
+		for stock in companies:
+			coefficients = increment(stock, 5)
+			print "Coefficients for " + str(stock) + " are "
+			writer.writerow(coefficients)
 
 main()
